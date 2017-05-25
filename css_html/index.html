@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel='stylesheet' href="style.css">
+    <link rel='stylesheet' type 'text/css' href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
+    
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title' class='center'>Guessing Game</h1>
+          <h2 id='subtitle' class='center'>Guess a Number between 1 and 100</h2>
+        </div>
+
+        <div id='main' class='center'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='input'  placeholder='#' maxlength=3 autofocus=autofocus></input>
+            <button id='button' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess list' >
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-danger'>Reset</button>
+            <button id='hint' class='btn btn-primary'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        
+          <div class='feet'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='feet'>
+            <h4>Project by Ezra Shamie</h4>
+          </div>
+
+          <div class='feet'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> 
+    <script src= "../js/GuessingGame.js"></script>
+
+  </body>
+</html>
